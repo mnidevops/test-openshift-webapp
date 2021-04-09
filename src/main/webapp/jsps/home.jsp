@@ -17,7 +17,7 @@
 		<img src="images/mithunlogo.jpg" alt="" width="100">
 	</span>
 	<span style="font-weight: bold;">
-		MNIDevops Technologies, 
+		GURUNATH Technologies, 
 		Pune
 		India,
 		+91-9552877667
