@@ -10,7 +10,7 @@
 </head>
 <body>
 <h1 align="center">Welcome to MNIDEVOPS.</h1>
-<h1 align="center"> MNIDevops Technologies- Very Good Training center for DevOps with AWS in Pune India and also for Job Assitance Job Support also...Teaching Real Time scnerios</h1>
+<h1 align="center"> GURUNATH Technologies- Very Good Training center for DevOps with AWS in Pune India and also for Job Assitance Job Support also...Teaching Real Time scnerios</h1>
 <hr>
 <div style="text-align: center;">
 	<span>
