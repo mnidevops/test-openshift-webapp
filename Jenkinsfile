@@ -1,4 +1,4 @@
-node ('master')
+node ('development')
  {
   
   def mavenHome = tool name: "maven3.6.3"
@@ -15,7 +15,7 @@ node ('master')
   
   stage("CheckOutCodeGit")
   {
-   git branch: 'master', credentialsId: '65fb834f-a83b-4fe7-8e11-686245c47a65', url: 'https://github.com/MithunTechnologiesDevOps/maven-web-application.git'
+   git branch: 'development', credentialsId: '38bac0e2-1797-4544-abd4-07a4b4b515c4', url: 'https://github.com/mnidevops/maven-web-application.git'
  }
  
  stage("Build")
@@ -23,12 +23,14 @@ node ('master')
  sh "${mavenHome}/bin/mvn clean package"
  }
  
-  /*
+  
  stage("ExecuteSonarQubeReport")
  {
+  withSonarQubeEnv('mnidevops_sonar') {
  sh "${mavenHome}/bin/mvn sonar:sonar"
  }
- 
+ } 
+ /*
  stage("UploadArtifactsintoNexus")
  {
  sh "${mavenHome}/bin/mvn deploy"
