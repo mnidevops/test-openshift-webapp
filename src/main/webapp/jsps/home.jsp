@@ -10,14 +10,14 @@
 </head>
 <body>
 <h1 align="center">Welcome to MNIDEVOPS.</h1>
-<h1 align="center"> MNIDevops Technologies- Very Good Training center for DevOps with AWS in Pune India and also for Job Assitance Job Support also...Teaching Real Time scnerios</h1>
+<h1 align="center"> Manoj Technologies- Very Good Training center for DevOps with AWS in Pune India and also for Job Assitance Job Support also...Teaching Real Time scnerios</h1>
 <hr>
 <div style="text-align: center;">
 	<span>
 		<img src="images/mithunlogo.jpg" alt="" width="100">
 	</span>
 	<span style="font-weight: bold;">
-		MNIDevops Technologies, 
+		Manoj Technologies, 
 		Pune
 		India,
 		+91-9552877667
